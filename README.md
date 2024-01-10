@@ -159,7 +159,22 @@ namespace AzureCacheforRedis.Controllers
 }
 ```
 
-## 6. 
+## 6. Verify the application
+
+https://localhost:7182/swagger/index.html
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-Azure-Cache-for-Redis/assets/32194879/e4908e38-a9c8-4414-9ce5-b73c99dbb9f5)
+
+We send a POST request
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-Azure-Cache-for-Redis/assets/32194879/d3fd3fbc-7faa-43fb-b8a5-2d7c26c8c234)
+
+We send a GET request
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-Azure-Cache-for-Redis/assets/32194879/3e603593-77a1-4389-9e5b-da7c06dbc27d)
+
+
+
 
 
 
