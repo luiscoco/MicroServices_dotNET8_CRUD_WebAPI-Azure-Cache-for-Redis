@@ -4,6 +4,11 @@
 
 
 
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-Azure-Cache-for-Redis/assets/32194879/efe6002b-825d-4132-a05a-baf93c11acdd)
+
+We copy the connection string in the appsettings.json file
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-Azure-Cache-for-Redis/assets/32194879/a6633def-517f-41b5-abba-6abe3ac6fa80)
 
 ## 2. appsettings.json
 
