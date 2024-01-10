@@ -1,6 +1,28 @@
 # How to create .NET8 CRUD WebAPI Azure Cache for Redis Microservice
 
-## 1. We set the Middleware (Program.cs)
+## 1. Create Azure Cache for Redis in Azure Portal
+
+
+
+
+## 2. appsettings.json
+
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "RedisCache": "myrediscache1974.redis.cache.windows.net:6380,password=vFuzCF5i81hLvJmmvCPTBnaoN17HMYJCyAzCaHzbkb0=,ssl=True,abortConnect=False"
+  }
+}
+```
+
+## 3. We set the Middleware (Program.cs)
 
 ```csharp
 using Microsoft.AspNetCore.Builder;
@@ -46,7 +68,7 @@ app.MapControllers();
 app.Run();
 ```
 
-## 2. We create the Service (RedisCacheService.cs)
+## 4. We create the Service (RedisCacheService.cs)
 
 ```csharp
 using StackExchange.Redis;
@@ -88,7 +110,7 @@ namespace AzureCacheforRedis.Services
 }
 ```
 
-## 3. We create the Controller (CacheController.cs)
+## 5. We create the Controller (CacheController.cs)
 
 ```csharp
 using AzureCacheforRedis.Services;
@@ -137,8 +159,7 @@ namespace AzureCacheforRedis.Controllers
 }
 ```
 
-
-## 4. 
+## 6. 
 
 
 
